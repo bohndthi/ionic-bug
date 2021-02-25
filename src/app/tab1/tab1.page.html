@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-segment>
+    <ion-segment-button value="general" layout="icon-start">
+      <ion-icon name="stats-chart-outline"></ion-icon>
+      <ion-label>blöbaadss</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="phasedOut" layout="icon-start">
+      <ion-icon name="time-outline"></ion-icon>
+      <ion-label>blub</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="quota" layout="icon-start">
+      <ion-icon name="cloud-upload-outline"></ion-icon>
+      <ion-label>bla</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
